@@ -113,7 +113,17 @@ public:
 		Node* c = root;
 		while (c != NULL)
 		{
+			cout << c->data << endl;
 
+			if (val == c->data)
+				return true;
+
+			if (val < c->data)
+				c = c->left;
+			else
+				c = c->right;
 		}
+
+		return false;
 	}
 };

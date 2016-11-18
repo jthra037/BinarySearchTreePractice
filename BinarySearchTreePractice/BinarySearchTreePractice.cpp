@@ -21,6 +21,10 @@ int main()
 	bt.printPostOrder();
 	cout << endl;
 
+	bt.search(25);
+	cout << "Is 25 in the tree? " << endl;
+	cout << "Is 13 in the tree? " << bt.search(13) << endl;
+
     return 0;
 }
 
