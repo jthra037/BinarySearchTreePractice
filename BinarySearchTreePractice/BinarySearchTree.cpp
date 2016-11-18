@@ -107,4 +107,13 @@ public:
 			cout << c->data << "-";
 		}
 	}
+
+	bool search(int val)
+	{
+		Node* c = root;
+		while (c != NULL)
+		{
+
+		}
+	}
 };
